@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  message: MyText
+  incident: 
+
+two:
+  type: 
+  message: MyText
+  incident: 

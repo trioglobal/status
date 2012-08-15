@@ -1,0 +1,8 @@
+<% @incidents.each do |incident| %>
+  <%= incident.name %><br/>
+  <% incident.updates.each do |update| %>
+    <h3><%= update.kind %></h3>
+    <%= update.message %>
+
+  <% end %>
+<% end %>
